@@ -22,11 +22,11 @@ import { MatTableExporterModule } from 'mat-table-exporter';
     MatTableExporterModule
   ],
  ]})
-
+```
+```html
 <mat-table matTableExporter [dataSource]="dataSource" #exporter="matTableExporter">
 <button mat-button (click)="exporter.exportTable('csv')"></button>
 ```
-
 
 ## Autor
 
