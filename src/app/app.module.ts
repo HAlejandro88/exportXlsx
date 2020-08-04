@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataTableComponent } from './components/data-table/data-table.component';
-import { MaterialModule } from './material/material.module'
+import { MaterialModule } from './material/material.module';
+import { ExportTableComponent } from './components/export-table/export-table.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataTableComponent
+    DataTableComponent,
+    ExportTableComponent
   ],
   imports: [
     BrowserModule,

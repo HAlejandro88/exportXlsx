@@ -22,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~9.0.5",
     "@angular/router": "~9.0.5",
     "file-saver": "^2.0.2",
+    "mat-table-exporter": "^9.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "xlsx": "^0.16.5",

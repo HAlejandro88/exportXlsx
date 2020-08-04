@@ -5,6 +5,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatTableExporterModule } from 'mat-table-exporter';
 
 
 
@@ -16,14 +17,16 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatTableModule,
     MatIconModule,
     MatInputModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatTableExporterModule
   ],
   exports: [
     MatButtonModule,
     MatTableModule,
     MatIconModule,
     MatInputModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatTableExporterModule
   ]
 })
 export class MaterialModule { }
